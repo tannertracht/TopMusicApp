@@ -5,14 +5,14 @@ function Header() {
   return (
     <Navbar variant="dark" style={{ backgroundColor: '#0F084B' }}>
       <Container>
-        <Navbar.Brand>Finn</Navbar.Brand>
+        <Navbar.Brand>Top iTunes Music</Navbar.Brand>
         <img 
           src='./headphones.png' 
           width={40}
           height={40}
           alt="headphones"
         />
-        <Navbar.Text>but music...</Navbar.Text>
+        <Navbar.Text>By Tanner</Navbar.Text>
       </Container>
     </Navbar>
   );
