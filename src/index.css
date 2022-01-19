@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Oswald", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+.album-card {
+  font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.37); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.37);
+  width: "190px";
+   
+}
+
+.album-card:hover {
+  transform: scale(1.05);
+}
+
+.toggle-button:hover {
+  transform: scale(0.95);
+}
+
+.animate {
+  animation-duration: 0.5s;
+  animation-name: animate-fade;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
